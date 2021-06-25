@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rails', '>= 5.0'
+  spec.add_dependency 'rails'
   spec.add_dependency 'rails_admin', '>= 2.0'
 
   spec.add_dependency 'globalize', '>= 5.0'
